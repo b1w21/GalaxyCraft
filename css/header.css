@@ -1,0 +1,51 @@
+h1 {
+    background-color: var(--background-color);
+    padding: var(--spacing-base);
+    color: var(--text-color);
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(135deg, var(--header-bg-start), var(--header-bg-end));
+    color: var(--text-color);
+    padding: var(--spacing-large) 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: var(--spacing-small);
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: var(--spacing-base);
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: var(--accent-color);
+}

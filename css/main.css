@@ -1,0 +1,19 @@
+@import url(./header.css);
+@import url(./hero.css);
+
+:root {
+    --text-color: white;
+    --background-color: purple;
+
+    --header-bg-start: #1e3c72;
+    --header-bg-end: #2a5298;
+    --accent-color: #ffcc00;
+
+    --spacing-small: 0.5rem;
+    --spacing-base: 1.25rem;
+    --spacing-large: 2.5rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
